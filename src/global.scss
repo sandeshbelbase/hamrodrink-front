@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+}
+.adminBanner{
+    padding: 10px 0px;
+    height: 100vh;
+}
+.adminForm{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #edfaff;
+    border-radius: 10px;
+    form{
+        input{
+            margin: 10px 0px;
+            padding: 6px;
+        }
+    }
+}
