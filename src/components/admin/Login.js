@@ -1,6 +1,6 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { useForm } from "react-hook-form";
-import api from "../../api";
+// import api from "../../api";
 
 const Login = () => {
   const defaultValues = {
@@ -14,7 +14,7 @@ const Login = () => {
 
   const onSubmit = (data) => {
     console.log("dadadada", data);
-    api.post("/user/login", data);
+    // api.post("/user/login", data);
     console.log("mailo");
     reset();
   };
