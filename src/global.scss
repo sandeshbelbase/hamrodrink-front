@@ -27,3 +27,66 @@ img{
         }
     }
 }
+.productForm{
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    background-color: #e2eff5;
+    padding: 30px;
+    label{
+        display: block;
+        color: #3f4040;
+        margin-bottom: 5px;
+        text-transform: capitalize; 
+        margin-left: 10px;
+    }
+    input{
+        display: block;
+        width: 100%;
+        border: solid thin #dddd;
+       padding:10px;
+       border-radius: 5px;
+    }
+    input[type="file"]{
+        border: none;
+    }
+    input[type=submit]{
+        width: auto;
+        background: #1176ae;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        text-transform: capitalize;
+    }
+    input[type=submit]:hover{
+        background: #5d8797;
+    }
+    .form-cotrol {
+        margin-bottom: 20px;
+    }
+    select{        
+        display: block;
+        width: 100%;
+        border: solid thin #dddd;
+       padding:10px;
+       border-radius: 5px;
+        }
+        textarea{        
+            display: block;
+            width: 100%;
+            border: solid thin #dddd;
+           padding:10px;
+           border-radius: 5px;
+            }
+
+}
+.SideNav{ 
+    box-shadow: 1px -15px 22px -10px rgb(0 0 0 / 12%);
+    ul{
+    list-style: none;
+}
+ul li .a{
+    text-decoration: none;
+}
+
+}
