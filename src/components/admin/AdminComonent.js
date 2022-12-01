@@ -6,10 +6,10 @@ const AdminComonent = () => {
   return (
     <div className="container-fluid">
       <div className="row">
-        <div className="col-md-3">
+        <div className="col-md-6">
           <LoginSide />
         </div>
-        <div className="col-md-9">
+        <div className="col-md-6">
           <Login />
         </div>
       </div>

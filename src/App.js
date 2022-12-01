@@ -8,7 +8,6 @@ function App() {
     <Routes>
       <Route path="/" element={<AdminLogin />} />
       <Route path="/addProduct" element={<AddProducts />} />
-
     </Routes>
   );
 }
